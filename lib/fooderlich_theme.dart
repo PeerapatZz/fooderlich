@@ -9,7 +9,7 @@ class FooderlichTheme {
       color: Colors.black,
     ),
     displayLarge: GoogleFonts.openSans(
-      fontSize: 32.0,
+      fontSize: 28.0,
       fontWeight: FontWeight.bold,
       color: Colors.black,
     ),
@@ -61,9 +61,9 @@ class FooderlichTheme {
   static ThemeData light() {
     return ThemeData(
       brightness: Brightness.light,
-      colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+      colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
       textSelectionTheme: const TextSelectionThemeData(
-        selectionColor: Colors.green,
+        selectionColor: Colors.red,
       ),
       textTheme: lightTextTheme,
     );
@@ -73,7 +73,7 @@ class FooderlichTheme {
     return ThemeData(
       brightness: Brightness.dark,
       colorScheme: ColorScheme.fromSeed(
-        seedColor: Colors.green,
+        seedColor: Colors.red,
         brightness: Brightness.dark,
       ),
       textTheme: darkTextTheme,
